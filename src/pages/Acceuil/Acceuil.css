@@ -50,6 +50,11 @@
     width: 100%;
     height: auto;
     margin-bottom: 10px;
+    transition: transform 0.3s ease-out;
+  }
+
+  .imageStyle:hover {
+    transform: scale(1.2);
   }
   
   .linkStyle {
