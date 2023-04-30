@@ -1,0 +1,9 @@
+.dark-container {
+    background-color: #5b5b5b;
+    border-radius: 10px;
+    height: 80vh;
+    width: 55vw;
+    margin: 5px;
+    margin-top: 85px;
+    margin-left: 25px;
+  }

@@ -1,0 +1,11 @@
+.catch-object {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    background-color: red;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+    user-select: none;
+  }
+  

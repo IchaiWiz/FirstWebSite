@@ -1,0 +1,43 @@
+.all-counter {
+    background-color: #222831;
+} 
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #eeeeee;
+  }
+  
+  .btn-counter {
+    background-color: #393e46;
+    border: 2px solid #00adb5;
+    color: #eeeeee;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .btn-counter:hover {
+    background-color: #00adb5;
+    color: #222831;
+  }
+  
+  .btn-counter:active {
+    transform: translateY(2px);
+  }
+  
+  .h1-counter {
+    font-size: 72px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 24px;
+  }
+  

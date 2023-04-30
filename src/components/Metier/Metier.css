@@ -1,0 +1,45 @@
+/* Metier.css */
+.metier-page {
+    background-color: #222831;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .metier-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eeeeee;
+  }
+  
+  .h1-metier {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+  
+  .btn-metier {
+    background-color: #393e46;
+    border: 2px solid #00adb5;
+    color: #eeeeee;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .btn-metier:hover {
+    background-color: #00adb5;
+    color: #222831;
+  }
+  
+  .btn-metier:active {
+    transform: translateY(2px);
+  }
+  

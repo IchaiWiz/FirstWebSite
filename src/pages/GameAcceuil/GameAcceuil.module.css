@@ -1,0 +1,73 @@
+.game-acceuil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #2b2a2a;
+}
+
+.game-title {
+  user-select: none;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  color: rgb(230, 12, 12);
+  font-size: 3rem;
+  text-align: center;
+  transition: opacity 0.5s ease;
+}
+
+.rules {
+  user-select: none;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(-50%, -50%);
+  background-color: #deb911;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Bangers', cursive;
+  font-size: 1rem;
+  color: #010101;
+  cursor: pointer;
+}
+
+.start-button {
+  user-select: none;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(-50%, -50%);
+  background-color: #deb911;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Bangers', cursive;
+  font-size: 2rem;
+  color: #151414;
+  cursor: pointer;
+}
+
+.start-button.show {
+  opacity: 1;
+}
+
+.start-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.countdown-text {
+  position: absolute;
+  top: 10%;
+  left: 46.5%;
+  font-size: 5rem;
+  font-family: 'Bangers', cursive;
+  color: #deb911;
+  margin: 0;
+  padding: 0;
+}

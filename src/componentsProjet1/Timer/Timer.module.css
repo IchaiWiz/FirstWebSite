@@ -1,0 +1,34 @@
+.lostMessage {
+  user-select: none;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(-50%, -50%);
+  font-family: 'Bangers', cursive;
+  color: rgb(230, 12, 12);
+  font-size: 3rem;
+  text-align: center;
+  z-index: 11;
+  }
+  
+  .retryButton {
+    user-select: none;
+  position: absolute;
+  top: 50%;
+  left: 49.5%;
+  transition: transform 0.3s ease-in-out;
+  transform: translate(-50%, -50%);
+  background-color: #deb911;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Bangers', cursive;
+  font-size: 2rem;
+  color: #151414;
+  cursor: pointer;
+  z-index: 11;
+  }
+  
+  .retryButton:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
