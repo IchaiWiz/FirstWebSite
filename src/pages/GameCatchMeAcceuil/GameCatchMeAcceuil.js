@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./GameAcceuil.module.css";
+import styles from "./GameCatchMeAcceuil.module.css";
 import beep from "../../../src/assets/RaceSound.mp3";
 import { useNavigate } from "react-router-dom";
 

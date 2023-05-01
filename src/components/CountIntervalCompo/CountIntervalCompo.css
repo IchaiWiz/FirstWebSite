@@ -1,0 +1,9 @@
+.CountIntervalCompo {
+    display: flex;
+    background-color: #222831;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #eeeeee;
+}

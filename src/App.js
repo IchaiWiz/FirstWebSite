@@ -10,9 +10,11 @@ import Counter from "./components/Counter/Counter";
 import Toogle from "./components/Toogle/Toogle";
 import Metier from "./components/Metier/Metier";
 import List from "./components/List/List";
-import ProjetN1 from "./pages/ProjetN1/ProjetN1";
-import Game from "./pages/Game/Game";
-import GameAcceuil from "./pages/GameAcceuil/GameAcceuil";
+import GameCatchMe from "./pages/GameCatchMe/GameCatchMe";
+import GameCatchMeAcceuil from "./pages/GameCatchMeAcceuil/GameCatchMeAcceuil";
+import CountIntervalCompo from "./components/CountIntervalCompo/CountIntervalCompo";
+import TTT from "./pages/TTT/TTT";
+
 function App() {
   return (
     <Routes>
@@ -22,11 +24,12 @@ function App() {
       <Route path="/Metier" element={<Metier />} />
       <Route path="/List" element={<List />} />
       <Route path="/useEffectCompo" element={<UseEffectCompo />} />
+      <Route path="/CountIntervalCompo" element={<CountIntervalCompo />} />
       <Route path="/home" element={<Cv />} />
       <Route path="/blog" element={<Blog />} />
-      <Route path="/ProjetN1" element={<ProjetN1 />} />
-      <Route path="/Game" element={<Game />} />
-      <Route path="/GameAcceuil" element={<GameAcceuil />} />
+      <Route path="/GameCatchMe" element={<GameCatchMe />} />
+      <Route path="/GameCatchMeAcceuil" element={<GameCatchMeAcceuil />} />
+      <Route path="/TTTGame" element={<TTT />} />
       <Route path="*" element={<PageError/>} />
     </Routes>
   );

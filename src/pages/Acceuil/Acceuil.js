@@ -15,7 +15,7 @@ const Acceuil = () => {
             <h2 className="titleStyle">Mon projet numéro 1</h2>
           </div>
           <img src={imgprj1} alt="Projet 1" className="imageStyle" />
-          <Link to="/ProjetN1" className="linkStyle">
+          <Link to="/GameCatchMeAcceuil" className="linkStyle">
             Projet n°1
           </Link>
         </div>
@@ -24,7 +24,7 @@ const Acceuil = () => {
             <h2 className="titleStyle">Mon projet numéro 2</h2>
           </div>
           <img src={imageprojet2} alt="Projet 2" className="imageStyle" />
-          <Link to="/Counter" className="linkStyle">
+          <Link to="/TTTGame" className="linkStyle">
             Projet n°2
           </Link>
         </div>

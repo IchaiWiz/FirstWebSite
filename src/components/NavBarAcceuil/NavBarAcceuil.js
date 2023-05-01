@@ -37,6 +37,9 @@ const NavBarAcceuil = () => {
           <li>
             <Link to="/List">List</Link>
           </li>
+          <li>
+            <Link to="/CountIntervalCompo">Chronomètre</Link>
+          </li>
         </ul>
       </li>
     </ul>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "./Game.module.css";
+import styles from "./GameCatchMe.module.css";
 import GameArea from "../../componentsProjet1/GameArea/GameArea";
 import HighScore from "../../componentsProjet1/HighScore/HighScore";
 import LevelInfo from "../../componentsProjet1/LevelInfo/LevelInfo";
