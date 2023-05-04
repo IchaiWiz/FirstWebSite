@@ -51,10 +51,11 @@
     height: auto;
     margin-bottom: 10px;
     transition: transform 0.3s ease-out;
+    cursor: pointer;
   }
 
   .imageStyle:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
   }
   
   .linkStyle {

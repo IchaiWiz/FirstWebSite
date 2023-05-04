@@ -14,7 +14,10 @@ const Acceuil = () => {
           <div className="titleContainerStyle">
             <h2 className="titleStyle">Mon projet numéro 1</h2>
           </div>
-          <img src={imgprj1} alt="Projet 1" className="imageStyle" />
+          <Link to="/GameCatchMeAcceuil">
+            {" "}
+            <img src={imgprj1} alt="Projet 1" className="imageStyle" />{" "}
+          </Link>
           <Link to="/GameCatchMeAcceuil" className="linkStyle">
             Projet n°1
           </Link>
@@ -23,7 +26,10 @@ const Acceuil = () => {
           <div className="titleContainerStyle">
             <h2 className="titleStyle">Mon projet numéro 2</h2>
           </div>
-          <img src={imageprojet2} alt="Projet 2" className="imageStyle" />
+          <Link to="/TTTGame">
+            {" "}
+            <img src={imageprojet2} alt="Projet 2" className="imageStyle" />
+          </Link>
           <Link to="/TTTGame" className="linkStyle">
             Projet n°2
           </Link>

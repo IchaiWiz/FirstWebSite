@@ -10,10 +10,12 @@ import Counter from "./components/Counter/Counter";
 import Toogle from "./components/Toogle/Toogle";
 import Metier from "./components/Metier/Metier";
 import List from "./components/List/List";
+import MouseMove from "./components/MouseMove/MouseMove";
 import GameCatchMe from "./pages/GameCatchMe/GameCatchMe";
 import GameCatchMeAcceuil from "./pages/GameCatchMeAcceuil/GameCatchMeAcceuil";
 import CountIntervalCompo from "./components/CountIntervalCompo/CountIntervalCompo";
 import TTT from "./pages/TTT/TTT";
+import TTTComputer from "./pages/TTTComputer/TTTComputer";
 
 function App() {
   return (
@@ -25,11 +27,13 @@ function App() {
       <Route path="/List" element={<List />} />
       <Route path="/useEffectCompo" element={<UseEffectCompo />} />
       <Route path="/CountIntervalCompo" element={<CountIntervalCompo />} />
+      <Route path="/MouseMove" element={<MouseMove />} />
       <Route path="/home" element={<Cv />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/GameCatchMe" element={<GameCatchMe />} />
       <Route path="/GameCatchMeAcceuil" element={<GameCatchMeAcceuil />} />
       <Route path="/TTTGame" element={<TTT />} />
+      <Route path="/TTTGameAgainstComputer" element={<TTTComputer />} />
       <Route path="*" element={<PageError/>} />
     </Routes>
   );

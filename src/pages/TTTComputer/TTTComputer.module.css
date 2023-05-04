@@ -1,0 +1,27 @@
+.infoTTT{
+    border: 2px solid black;
+    position :absolute;
+    top: 35%;
+    left: 2%;
+    padding: 5px;
+    width: 400px;
+    height: 120px;
+    border-radius: 0.3rem;
+    animation: fadeOut 20s linear 4s forwards;
+}
+.styleprojetN2 {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #d3cccc;
+    font-family: "Fredoka", sans-serif;
+}
+
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "./TTT.module.css";
+import styles from "./TTTComputer.module.css";
 import Board from "../../componentsProjet2/Board/Board";
 import ScoreBoard from "../../componentsProjet2/ScoreBoard/ScoreBoard";
 import TTTReset from "../../componentsProjet2/TTTReset/TTTReset";
@@ -78,7 +78,7 @@ const TTT = () => {
 
   return (
     <div>
-        <div><p className={styles.infoTTT}>Bonjour ! Vous êtes devant un jeu de Croix & Rond. Vous ne pouvez pour l'instant que jouer contre un ami, mais une nouvelle version arrive bientôt ! Tenez vous au courant sur <a href="TTTGameAgainstComputer">ce lien</a></p></div>
+        <div><p className={styles.infoTTT}>Bonjour ! Vous êtes devant un jeu de Croix & Rond. La nouvelle version dispose d'une option capable de jouer contre l'ordinateur ! Elle dispose de trois niveaux : Facile, Moyen et Difficile. Bonne chance !</p></div>
         <ScoreBoard scores={scores} xPlaying={xPlaying}/>
         <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick}/>
         <TTTReset resetBoard={resetBoard}/>

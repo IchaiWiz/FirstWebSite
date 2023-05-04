@@ -40,6 +40,9 @@ const NavBarAcceuil = () => {
           <li>
             <Link to="/CountIntervalCompo">Chronomètre</Link>
           </li>
+          <li>
+            <Link to="/MouseMove">Mouse Tracker</Link>
+          </li>
         </ul>
       </li>
     </ul>
