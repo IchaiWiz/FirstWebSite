@@ -1,0 +1,146 @@
+.login-page {
+  background-color: #222831;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+
+.login-title {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #555555;
+  border-radius: 4px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+  border-color: #00a8ff;
+}
+
+.login-button {
+  padding: 10px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #00a8ff 0%, #00adb5 100%);
+  border: none;
+  color: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+}
+
+.login-button:hover {
+  background-image: linear-gradient(to right, #007dbf 0%, #007d8a 100%);
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.show-password {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.show-password input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+.show-password label {
+  cursor: pointer;
+  user-select: none;
+}
+
+.show-password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.help-link {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;  
+
+}
+
+.help-link:hover {
+  color: #00a8ff;
+}
+
+.help-options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.help-options ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.help-options li {
+  margin-bottom: 0;
+}
+
+.help-options a {
+  display: block;
+  padding: 15px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #555555;
+  transition: background-color 0.5s;
+}
+
+.help-options a:hover {
+  background-color: #00a8ff;
+  color: #333333;
+}
+
+.help-options a:last-child {
+  border-bottom: none;
+}

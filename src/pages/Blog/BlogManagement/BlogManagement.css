@@ -1,0 +1,158 @@
+.blogManagement {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #222831;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+  
+.blogManagement__addArticle,
+.blogManagement__deleteArticle {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #333333;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+  
+.blogManagement__addArticle h2,
+.blogManagement__deleteArticle h2 {
+    margin-bottom: 20px;
+    color: #00a8ff;
+}
+  
+.blogManagement__addArticle form,
+.blogManagement__deleteArticle form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.blogManagement__addArticle input,
+.blogManagement__addArticle textarea,
+.blogManagement__deleteArticle input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #555555;
+    background-color: transparent;
+    color: #ffffff;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+  
+.blogManagement__addArticle input:focus,
+.blogManagement__addArticle textarea:focus,
+.blogManagement__deleteArticle input:focus {
+    border-color: #00a8ff;
+}
+  
+.blogManagement__addArticle button,
+.blogManagement__deleteArticle button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00a8ff;
+    border: none;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 20px;
+}
+  
+.blogManagement__addArticle button:hover,
+.blogManagement__deleteArticle button:hover {
+    background-color: #007dbf;
+}
+  
+.errorMessage {
+    color: #ff0000;
+    margin-top: 10px;
+}
+  
+.successMessage {
+    color: #00ff00;
+    margin-top: 10px;
+}
+  
+.blogManagement__articles,
+.blogManagement__selectedArticles {
+    background-color: transparent;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+  
+.blogManagement__article,
+.blogManagement__selectedArticle {
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #ffffff;
+}
+  
+.blogManagement__article:hover,
+.blogManagement__selectedArticle:hover {
+    background-color: #555555;
+}
+  
+::-webkit-scrollbar {
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+    background-color: #333333;
+}
+  
+::-webkit-scrollbar-thumb {
+    background-color: #00a8ff;
+    border-radius: 5px;
+}
+
+.blogManagement__searchArticle {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #333333;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+  
+.blogManagement__searchArticle h2 {
+    margin-bottom: 20px;
+    color: #00a8ff;
+}
+  
+.blogManagement__searchArticle input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #555555;
+    background-color: transparent;
+    color: #ffffff;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+  
+.blogManagement__searchArticle input:focus {
+    border-color: #00a8ff;
+}
+
+.blogManagement__articles {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.blogManagement__articleWrapper {
+    margin-bottom: 10px;
+}
+

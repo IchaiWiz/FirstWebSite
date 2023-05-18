@@ -3,8 +3,10 @@ import styles from "./TTTComputer.module.css";
 import Board from "../../componentsProjet2/Board/Board";
 import ScoreBoard from "../../componentsProjet2/ScoreBoard/ScoreBoard";
 import TTTReset from "../../componentsProjet2/TTTReset/TTTReset";
+import { useTranslation } from "react-i18next";
 
 const TTT = () => {
+  const { t } = useTranslation();
   useEffect(() => {
     document.body.classList.add(styles.styleprojetN2);
 
@@ -76,14 +78,18 @@ const TTT = () => {
     setBoard(Array(9).fill(null))
 }
 
-  return (
+return (
+  <div>
     <div>
-        <div><p className={styles.infoTTT}>Bonjour ! Vous êtes devant un jeu de Croix & Rond. La nouvelle version dispose d'une option capable de jouer contre l'ordinateur ! Elle dispose de trois niveaux : Facile, Moyen et Difficile. Bonne chance !</p></div>
-        <ScoreBoard scores={scores} xPlaying={xPlaying}/>
-        <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick}/>
-        <TTTReset resetBoard={resetBoard}/>
+      <p className={styles.infoTTT}>
+        {t('TTTComputer.welcomeMessage')}
+      </p>
     </div>
-  );
+    <ScoreBoard scores={scores} xPlaying={xPlaying} />
+    <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick} />
+    <TTTReset resetBoard={resetBoard} />
+  </div>
+);
 };
 
 export default TTT;

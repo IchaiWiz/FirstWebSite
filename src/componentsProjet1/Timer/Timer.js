@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import styles from './Timer.module.css';
+import { useTranslation } from 'react-i18next';
 
 const Timer = ({ initialTime, onTimerEnd, level, resetTimer, }) => {
+  const { t } = useTranslation();
   const [timeRemaining, setTimeRemaining] = useState(initialTime);
   const [showRestartButton, setShowRestartButton] = useState(false);
   const [showLostMessage, setShowLostMessage] = useState(false);
-
 
   useEffect(() => {
     if (timeRemaining <= 0) {
@@ -32,21 +33,21 @@ const Timer = ({ initialTime, onTimerEnd, level, resetTimer, }) => {
 
   return (
     <div className={styles.timer}>
-      <h3>Temps restant</h3>
-      <p>{timeRemaining} s</p>
+      <h3>{t("GameTimer.timeRemaining")}: {timeRemaining} s</h3>
+     
       {showLostMessage && (
-        <div className={styles.lostMessage}>Vous avez perdu ! 😢</div>
+        <div className={styles.lostMessage}>{t("GameTimer.lostMessage")}</div>
       )}
       {showRestartButton && (
-      <button className={styles.retryButton}
-      style={{ pointerEvents : "auto"}}
-        onClick={() => {
-          window.location.reload();
-        }}
-      >
-        Recommencer
-      </button>
-    )}
+        <button className={styles.retryButton}
+          style={{ pointerEvents : "auto"}}
+          onClick={() => {
+            window.location.reload();
+          }}
+        >
+          {t("GameTimer.retry")}
+        </button>
+      )}
     </div>
   );
 };

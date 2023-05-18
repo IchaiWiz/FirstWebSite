@@ -1,0 +1,8 @@
+.blogpage {
+  background-color: #172c41;
+}
+.articlesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

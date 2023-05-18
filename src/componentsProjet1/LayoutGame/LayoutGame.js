@@ -1,16 +1,18 @@
 import React from "react";
 import styles from "./LayoutGame.module.css";
+import { useTranslation } from "react-i18next";
 
 const Layout = ({ children }) => {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.layout}>
-      <header className={styles.header}>Catch Me If You Can !</header>
+      <header className={styles.header}>{t("GameLayout.title")}</header>
       <main className={styles.content}>{children}</main>
-      <footer className={styles.footer}>
-        © 2023 Conception et réalisation par Ichaï Wizman. Tous droits réservés.
-      </footer>
+      <footer className={styles.footer}>{t("GameLayout.footer")}</footer>
     </div>
   );
 };
 
 export default Layout;
+

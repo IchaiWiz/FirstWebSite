@@ -3,8 +3,10 @@ import styles from "./TTT.module.css";
 import Board from "../../componentsProjet2/Board/Board";
 import ScoreBoard from "../../componentsProjet2/ScoreBoard/ScoreBoard";
 import TTTReset from "../../componentsProjet2/TTTReset/TTTReset";
+import {useTranslation} from "react-i18next";
 
 const TTT = () => {
+  const {t} = useTranslation();
   useEffect(() => {
     document.body.classList.add(styles.styleprojetN2);
 
@@ -76,14 +78,19 @@ const TTT = () => {
     setBoard(Array(9).fill(null))
 }
 
-  return (
-    <div>
-        <div><p className={styles.infoTTT}>Bonjour ! Vous êtes devant un jeu de Croix & Rond. Vous ne pouvez pour l'instant que jouer contre un ami, mais une nouvelle version arrive bientôt ! Tenez vous au courant sur <a href="TTTGameAgainstComputer">ce lien</a></p></div>
-        <ScoreBoard scores={scores} xPlaying={xPlaying}/>
-        <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick}/>
-        <TTTReset resetBoard={resetBoard}/>
-    </div>
-  );
+return (
+  <div>
+      <div>
+        <p className={styles.infoTTT}>
+          {t("TTTGame.info")}
+          <a href="TTTGameAgainstComputer">{t("TTTGame.link")}</a>
+        </p>
+      </div>
+      <ScoreBoard scores={scores} xPlaying={xPlaying}/>
+      <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick}/>
+      <TTTReset resetBoard={resetBoard}/>
+  </div>
+);
 };
 
 export default TTT;

@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import Navbar from "../../components/NavBar/Navbar";
-import SectionPresentation from "../../components/sectionPresentation/SectionPresentation";
-import Main from "../../components/Main/Main";
+import Header from "../../componentsCV/Header/Header";
+import Navbar from "../../componentsCV/NavBar/Navbar";
+import SectionPresentation from "../../componentsCV/sectionPresentation/SectionPresentation";
+import Main from "../../componentsCV/Main/Main";
 import { useState } from "react";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../../componentsCV/Footer/Footer";
 
 const Cv = () => {
   const [name, setName] = useState("Ichai Wizman");

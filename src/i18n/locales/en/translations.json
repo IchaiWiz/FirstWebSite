@@ -1,0 +1,145 @@
+{
+  "Acceuil": {
+    "titleproject1": "My project number 1",
+    "titleproject2": "My project number 2",
+    "project1": "Project n°1",
+    "project2": "Project n°2"
+  },
+  "nav": {
+    "Counterlink": "Counter",
+
+    "Tooglelink": "Toogle",
+
+    "Metierlink": "Jobs",
+
+    "Listlink": "Courses",
+
+    "CountIntervalCompolink": "Stopwatch",
+
+    "MouseMovelink": "Mouse Tracker",
+
+    "Moncv": "My CV",
+    "Counter": "Reset",
+    "Toogle": {
+      "msg": "Hello!",
+      "btn": "Click here!"
+    },
+    "Metier": {
+      "me": "I am",
+      "metier": "Fullstack Developer",
+      "niveau": "in training",
+      "junior": "Junior",
+      "intermediaire": "Intermediate",
+      "senior": "Senior",
+      "btn1": "in 3 months I will be",
+      "btn2": "in 1 year I will be",
+      "btn3": "in 5 years I will be"
+    },
+    "Cours": {
+      "react": "React js",
+      "htmlCss": "html/css",
+      "vanillaJs": "vanilla javascript",
+      "listeImportants": "List of the most important courses"
+    },
+    "MouseTracker": {
+      "retour": "Back",
+      "position": "Mouse position:"
+    },
+    "CountIntervalCompo": "My counter has been running for ",
+    "login": "Login"
+  },
+  "Login": {
+    "title": "Login",
+    "email": "E-mail",
+    "password": "Password",
+    "showPassword": "Show password",
+    "forgotPassword": "I need help...",
+    "btn": "Sign in",
+    "passwordErrorIntro": "The password must contain ",
+    "passwordErrorAnd": " and ",
+    "error8c": "at least 8 characters",
+    "errorMajc": "an uppercase letter",
+    "errorMinc": "a lowercase letter",
+    "errornumber": "a number",
+    "errorsymbole": "a symbol",
+    "connectionError": "Connection error. Please check your credentials.",
+    "checkIdentifiants": "Please check your credentials."
+  },
+  "HelpPage": {
+    "title": "Welcome to the help page !",
+    "subtitle": "How can we help you today ?",
+    "option1": "I forgot my password",
+    "option2": "I forgot my e-mail",
+    "option3": "Contact support"
+  },
+  "CV": {
+    "acceuil": "Home",
+    "download": "Download CV",
+    "sliderResponsiveAlt": "Represents multiple screens for responsive design",
+    "sliderResponsiveTitle": "Responsive design",
+    "sliderFigcaption": "Highlighting the latest project",
+    "sliderTitle": "Are you looking for a developer to manage your web projects?",
+    "sliderText1": "I can strengthen your team both in graphic design and development.",
+    "sliderText2": "Would you be willing to give me a chance?",
+    "cardDesignTitle": "Design",
+    "cardDesignFigcaption": "Mastering design tools and creating unique visuals.",
+    "cardFrontEndTitle": "Front-end development",
+    "cardFrontEndFigcaption": "Integration and development of high-performance and adaptive websites.",
+    "cardBackEndTitle": "Back-end development",
+    "cardBackEndFigcaption": "Creating back-end solutions to manage data and site functionality.",
+    "cardSEOTitle": "SEO",
+    "cardSEOFigcaption": "Search engine optimization to improve website visibility.",
+    "presentationTitle": "Presentation",
+    "presentationText": "Passionate about web development and design for many years, I have gained solid experience working on various innovative projects. My goal is to create high-performance and aesthetic solutions to meet my clients' needs.",
+    "whoAmITitle": "Who am I?",
+    "whoAmIText": "I am a talented web developer and designer, capable of working on various projects ranging from website creation to mobile applications. My skills include mastering programming languages such as JavaScript, PHP, and HTML/CSS.",
+    "experienceTitle": "Experience",
+    "experience1": "Front-end Developer at XYZ",
+    "experience2": "Back-end Developer at ABC",
+    "experience3": "Designer at LMN",
+    "contactTitle": "Contact",
+    "labelPrenom": "First name",
+    "labelNom": "Last name",
+    "labelEmail": "E-mail",
+    "labelMessage": "Message",
+    "messagePlaceholder": "Write your message"
+  },
+    "GameAcceuil": {
+      "title": "Catch Me If You Can!",
+      "launch": "Launch!",
+      "rules": "Catch the object by moving your mouse cursor over it.\nThe object escapes and moves when the cursor gets closer.\nCatch the object 10 times to advance to the next level.\nAt each level, the object moves faster and rotates around itself.\nOn the side, check your level, remaining clicks, score, and enter your name if you win.\nGood luck and have fun!"
+    },
+    "GameLayout": {
+      "title": "Catch Me If You Can!",
+      "footer": "© 2023 Designed and developed by Ichaï Wizman. All rights reserved."
+    },
+    "GameLevelInfo": {
+      "levelInfo": "Level "
+    },
+    "GameRemainingClicks": {
+      "clicksRemaining": "Clicks remaining "
+    },
+    "GameScoreInfo": {
+      "score": "Score"
+    },
+    "GameTimer": {
+      "timeRemaining": "Time remaining ",
+      "lostMessage": "You lost! 😢",
+      "retry": "Try again"
+    },
+    "TTTGame": {
+      "info": "Hello! You're looking at a Tic-Tac-Toe game. For now, you can only play against a friend, but a new version is coming soon! Stay updated on ",
+      "link": "this link"
+    },
+    "TTTReset": {
+      "reset": "Reset"
+    },
+    "TTTComputer": {
+      "welcomeMessage": "Hello! You're looking at a Tic-Tac-Toe game. The new version features an option to play against the computer! It has three levels: Easy, Medium, and Hard. Good luck!"
+    },
+    "PageError": {
+      "title": "Oops!",
+      "description": "It seems the page you're looking for has been swept away by a whirlwind of originality.",
+      "backButton": "Back to home"
+    }
+  }  

@@ -1,0 +1,147 @@
+{
+  "Acceuil": {
+    "titleproject1": "Mon projet numéro 1",
+    "titleproject2": "Mon projet numéro 2",
+    "project1": "Projet n°1",
+    "project2": "Projet n°2"
+  },
+  "nav": {
+    "Moncv": "Mon CV",
+
+    "Counterlink": "Compteur",
+
+    "Tooglelink": "Toogle",
+
+    "Metierlink": "Métier",
+
+    "Listlink": "Cours",
+
+    "CountIntervalCompolink": "Chronomètre",
+
+    "MouseMovelink": "Position de la souris",
+
+    "Counter": "Réinitialiser",
+    "Toogle": {
+      "msg": "Coucou !",
+      "btn": "Cliquez ici !"
+    },
+    "Metier": {
+      "me": "Je suis",
+      "metier": "Développeur Fullstack",
+      "niveau": "en formation",
+      "junior": "Junior",
+      "intermediaire": "Intermédiaire",
+      "senior": "Senior",
+      "btn1": "dans 3 mois je serai",
+      "btn2": "dans 1 an je serai",
+      "btn3": "dans 5 ans je serai"
+    },
+    "Cours": {
+      "react": "React js",
+      "htmlCss": "html/css",
+      "vanillaJs": "javascript natif",
+      "listeImportants": "Liste des cours les plus importants"
+    },
+    "MouseTracker": {
+      "retour": "Retour",
+      "position": "Position de la souris :"
+    },
+    "CountIntervalCompo": "Mon compteur tourne depuis ",
+    "login": "S'authentifier"
+  },
+  "Login": {
+    "title": "Connexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "showPassword": "Voir le mot de passe",
+    "forgotPassword": "J'ai besoin d'aide...",
+    "btn": "Se connecter",
+    "passwordErrorIntro": "Le mot de passe doit contenir ",
+    "passwordErrorAnd": " et ",
+    "error8c": "au moins 8 caractères",
+    "errorMajc": "une lettre majuscule",
+    "errorMinc": "une lettre minuscule",
+    "errornumber": "un chiffre",
+    "errorsymbole": "un symbole",
+    "connectionError": "Erreur de connexion. Veuillez vérifier vos identifiants.",
+    "checkIdentifiants": "Veuillez vérifier vos identifiants."
+  },
+  "HelpPage": {
+    "title": "Bienvenue sur la page d'aide !",
+    "subtitle": "Comment peut-on vous aider aujourd'hui ?",
+    "option1": "J'ai oublié mon mot de passe",
+    "option2": "J'ai oublié mon e-mail",
+    "option3": "Contacter le support"
+  },
+  "CV": {
+    "acceuil": "Acceuil",
+    "download": "Télécharger le CV",
+    "sliderResponsiveAlt": "Représente plusieurs écrans pour le responsive",
+    "sliderResponsiveTitle": "Responsive design",
+    "sliderFigcaption": "Mise en avant du dernier projet",
+    "sliderTitle": "Vous êtes à la recherche d'un développeur pour gérer vos projets web ?",
+    "sliderText1": "Je peux renforcer votre équipe autant sur la partie graphique que développement.",
+    "sliderText2": "Seriez-vous prêt à me donner ma chance ?",
+    "cardDesignTitle": "Design",
+    "cardDesignFigcaption": "Maîtrise des outils de design et création de visuels uniques.",
+    "cardFrontEndTitle": "Développement front-end",
+    "cardFrontEndFigcaption": "Intégration et développement de sites web performants et adaptatifs.",
+    "cardBackEndTitle": "Développement back-end",
+    "cardBackEndFigcaption": "Création de solutions back-end pour gérer les données et les fonctionnalités du site.",
+    "cardSEOTitle": "SEO",
+    "cardSEOFigcaption": "Optimisation du référencement pour améliorer la visibilité du site web.",
+    "presentationTitle": "Présentation",
+    "presentationText": "Passionné par le développement web et le design depuis de nombreuses années, j'ai acquis une solide expérience en travaillant sur des projets variés et innovants. Mon objectif est de créer des solutions performantes et esthétiques pour répondre aux besoins de mes clients.",
+    "whoAmITitle": "Qui suis-je ?",
+    "whoAmIText": "Je suis un développeur web et designer talentueux, capable de travailler sur divers projets allant de la création de sites web aux applications mobiles. Mes compétences incluent la maîtrise de langages de programmation tels que JavaScript, PHP, et HTML/CSS.",
+    "experienceTitle": "Expériences",
+    "experience1": "Développeur Front-end chez XYZ",
+    "experience2": "Développeur Back-end chez ABC",
+    "experience3": "Designer chez LMN",
+    "contactTitle": "Contact",
+    "labelPrenom": "Prénom",
+    "labelNom": "Nom",
+    "labelEmail": "E-mail",
+    "labelMessage": "Message",
+    "messagePlaceholder": "Écrire votre message"
+  },
+
+  "GameAcceuil": {
+    "title": "Attrape-moi si tu peux !",
+    "launch": "Lancer !",
+    "rules": "Attrapez l'objet en déplaçant le curseur de la souris sur celui-ci.\nL'objet s'échappe et se déplace lorsque le curseur se rapproche.\nAttrapez l'objet 10 fois pour passer au niveau suivant.\nÀ chaque niveau, l'objet se déplace plus rapidement et tourne sur lui-même.\nSur le côté, consultez votre niveau, clics restants, score et saisissez votre nom en cas de victoire.\nBonne chance et amusez-vous !"
+  },
+  "GameLayout": {
+    "title": "Attrape-moi si tu peux !",
+    "footer": "© 2023 Conception et réalisation par Ichaï Wizman. Tous droits réservés."
+  },
+  "GameLevelInfo": {
+    "levelInfo": "Niveau "
+  },
+  "GameRemainingClicks": {
+    "clicksRemaining": "Clics restants "
+  },
+  "GameScoreInfo": {
+    "score": "Score"
+  },
+  "GameTimer": {
+    "timeRemaining": "Temps restant ",
+    "lostMessage": "Vous avez perdu ! 😢",
+    "retry": "Recommencer"
+  },
+  "TTTGame": {
+    "info": "Bonjour ! Vous êtes devant un jeu de Croix & Rond. Vous ne pouvez pour l'instant que jouer contre un ami, mais une nouvelle version arrive bientôt ! Tenez vous au courant sur ",
+    "link": "ce lien"
+  },
+  "TTTReset": {
+    "reset": "Réinitialiser"
+  },
+  "TTTComputer": {
+    "welcomeMessage": "Bonjour ! Vous êtes devant un jeu de Croix & Rond. La nouvelle version dispose d'une option capable de jouer contre l'ordinateur ! Elle dispose de trois niveaux : Facile, Moyen et Difficile. Bonne chance !"
+  },
+  "PageError": {
+    "title": "Oups !",
+    "description": "Il semblerait que la page que vous cherchez ait été emportée par un tourbillon d'originalité.",
+    "backButton": "Retour à l'accueil"
+  }
+}

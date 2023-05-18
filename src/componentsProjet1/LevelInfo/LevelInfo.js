@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import { useTranslation } from "react-i18next";
 
-const LevelInfo = ({level}) => {
-  return (
-    <div>LevelInfo : {level}</div>
-  )
-}
+const LevelInfo = ({ level }) => {
+  const { t } = useTranslation();
 
-export default LevelInfo
+  return <div><h3>{t("GameLevelInfo.levelInfo")}: {level}</h3></div>;
+};
+
+export default LevelInfo;

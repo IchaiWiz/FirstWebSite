@@ -4,34 +4,39 @@ import "./Acceuil.css";
 import imgprj1 from "../../../src/assets/RobotGentil.jpeg";
 import imageprojet2 from "../../../src/assets/RobotFlippant.jpeg";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Acceuil = () => {
+
+  const {t} = useTranslation();
+
+
   return (
     <div className="all-acceuil">
       <NavBarAcceuil />
       <div className="containerStyle">
         <div className="cardStyle">
           <div className="titleContainerStyle">
-            <h2 className="titleStyle">Mon projet numéro 1</h2>
+            <h2 className="titleStyle">{t("Acceuil.titleproject1")}</h2>
           </div>
           <Link to="/GameCatchMeAcceuil">
             {" "}
             <img src={imgprj1} alt="Projet 1" className="imageStyle" />{" "}
           </Link>
           <Link to="/GameCatchMeAcceuil" className="linkStyle">
-            Projet n°1
+          {t("Acceuil.project1")}
           </Link>
         </div>
         <div className="cardStyle">
           <div className="titleContainerStyle">
-            <h2 className="titleStyle">Mon projet numéro 2</h2>
+            <h2 className="titleStyle">{t("Acceuil.titleproject2")}</h2>
           </div>
           <Link to="/TTTGame">
             {" "}
             <img src={imageprojet2} alt="Projet 2" className="imageStyle" />
           </Link>
           <Link to="/TTTGame" className="linkStyle">
-            Projet n°2
+          {t("Acceuil.project2")}
           </Link>
         </div>
       </div>
