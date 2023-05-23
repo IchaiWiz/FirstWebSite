@@ -31,6 +31,7 @@ import HelpPage from "./pages/HelpPage/HelpPage";
 import Login from "./components/Login/Login";
 import BlogManagement from "./pages/Blog/BlogManagement/BlogManagement";
 import ProjectFilter from "./pages/ProjectFilter/ProjectFilter";
+import Calculus from "./components/Features/UseReducer/Calculus";
 import { AuthProvider } from "./components/Authentification/AuthContext";
 
 
@@ -67,6 +68,7 @@ function App() {
         <Route path="/projectfilter" element={<ProjectFilter />} />
         <Route path="/BlogManagement" element={<BlogManagement />} />
         <Route path="/HelpPage" element={<HelpPage />} />
+        <Route path="/Calculus" element={<Calculus />} />
         <Route path="*" element={<PageError />} />
       </Routes>
     </AuthProvider>

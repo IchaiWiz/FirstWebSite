@@ -201,7 +201,7 @@ const NavBarAcceuil = ({ filters, handleFilterChange }) => {
                 <Link to="/List">{t("nav.Listlink")}</Link>
               </li>
               <li>
-                <Link to="/Calcul">Calculette</Link>
+                <Link to="/Calculus">UseReducer Calculus</Link>
               </li>
               <li>
                 <Link to="/CountIntervalCompo">
